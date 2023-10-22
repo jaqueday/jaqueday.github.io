@@ -1,16 +1,17 @@
 body{
     font-family: Helvetica, sans-serif;
     margin:2pt;
-    color:white;
-    background:olivedrab;
+    color:#f0ebd8;
+    background:#f0ebd8;
     line-height:1.5;
 }
-#container-1 #container-2, #navbar{
-    display: flex;
-}
 #container-1{
-    background: darkgrey;
-    font-size: 200%;
+    background: #1d2d44;
+    font-size: 150%;
+    margin: 1%;
+    border-radius: 10px;
+    min-height: 50px;
+    align-items: center;
 }
 #navbar{
     display: flex;
@@ -23,14 +24,34 @@ body{
 #container-2{
     display: flex;
     min-height:600px;
-    background:olivedrab;
+    background:#f0ebd8;
     font-size:100%;
 }
 #sidebar{
     flex:2;
-    padding:5%;
+    padding:2.5%;
+    background: #3e5c76;
+    margin: 1%;
+    border-radius: 10px;
+}
+#headshot{
+    display: flex;
+    align-items: stretch;
 }
 #content{
     flex:10;
-    padding:5%;
+    padding:2.5%;
+    background: #748cab;
+    margin: 1%;
+    border-radius: 10px;
+}
+a:link {
+    color: #f0ebd8;
+}
+a:visited {
+    color: #748cab;
+}
+img{
+    max-height: 120px;
+    border-radius: 10px;
 }
