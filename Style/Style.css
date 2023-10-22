@@ -21,11 +21,16 @@ body{
     text-align: center;
 }
 #container-2{
+    display: flex;
     min-height:600px;
     background:olivedrab;
     font-size:100%;
 }
+#sidebar{
+    flex:2;
+    padding:5%;
+}
 #content{
-    flex:5;
+    flex:10;
     padding:5%;
 }
