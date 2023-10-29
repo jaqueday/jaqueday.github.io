@@ -1,66 +1,46 @@
-body{
-    font-family: Helvetica, sans-serif;
-    margin:1%;
-    color:#f0ebd8;
+body {
     background:#f0ebd8;
-    line-height:1.5;
 }
-@media screen and (min-width: 400px) {
-    /*can add max-width as well */
-    #container-1 {
-        background: #1d2d44;
-        font-size: 150%;
-        margin: 1%;
-        border-radius: 10px;
-        min-height: 50px;
-        align-items: center;
-        display: flex;
-    }
+.container{
 
-    .links {
-        flex: 10;
-        text-align: center;
-        flex-grow: 1;
-    }
-
-    #container-2 {
-        display: flex;
-        min-height: 600px;
-        background: #f0ebd8;
-        font-size: 100%;
-    }
-
-    #sidebar {
-        flex: 2;
-        padding: 2.5%;
-        background: #3e5c76;
-        margin: 1%;
-        border-radius: 10px;
-        justify-content: center;
-    }
-
-    #headshot {
-        display: flex;
-        flex-basis: 100px;
-        justify-content: center;
-    }
-
-    #content {
-        flex: 10;
-        padding: 2.5%;
-        background: #748cab;
-        margin: 1%;
-        border-radius: 10px;
-    }
 }
-
-a:link {
-    color: #f0ebd8;
+.row{
+    margin-top: 25px;
+    justify-content: space-between;
 }
-a:visited {
-    color: #748cab;
-}
-img{
-    max-height: 120px;
+.navbar{
+    background: #1d2d44;
     border-radius: 10px;
+}
+.link{
+    text-align: center;
+}
+.main{
+    min-height: 200px;
+}
+.sidebar{
+    background: #3e5c76;
+    border-radius: 10px;
+    color: #f0ebd8;
+    text-align: center;
+}
+.headshot{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.content{
+    background: #748cab;
+    border-radius: 10px;
+    color: #f0ebd8;
+    padding: 15px;
+}
+.footer{
+    background: #1d2d44;
+    color: #f0ebd8;
+    border-radius: 10px;
+    text-align: center;
+}
+a:link, a:visited {
+    color: #f0ebd8;
+    text-decoration: none;
 }
