@@ -1,9 +1,6 @@
 body {
     background:#f0ebd8;
 }
-.container{
-
-}
 .row{
     margin-top: 25px;
     justify-content: space-between;
@@ -14,6 +11,10 @@ body {
 }
 .link{
     text-align: center;
+}
+.container{
+    margin-top: 25px;
+    justify-content: right;
 }
 .main{
     min-height: 200px;
