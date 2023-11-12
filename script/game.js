@@ -8,8 +8,8 @@ function playGame() {
 
 // function that amalgamates the user choice, computer choice, and result
 function userChoice(userSelection) {
-    const computerSelection = getComputerChoice();
-    const result = determineWinner(userSelection, computerSelection);
+    const computerSelection = getComputerChoice(); //run the function to get the computer choice
+    const result = determineWinner(userSelection, computerSelection); //run the function to determine the winner
     document.getElementById("result").innerText = `You chose ${userSelection}. The computer chose ${computerSelection}. ${result}`;
 }
 
